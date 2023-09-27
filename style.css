@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1218%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1219%26quot%3b)'%3e%3c/rect%3e%3cpath d='M42.968183348182684 274.11283981795265L-13.76497028743242 352.1993267733267 64.32151666794164 408.93248040894184 121.05467030355675 330.84599345356776z' fill='rgba(255%2c 255%2c 255%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M352.21 445.88 a179.21 179.21 0 1 0 358.42 0 a179.21 179.21 0 1 0 -358.42 0z' fill='rgba(255%2c 255%2c 255%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1210.5885588548251 247.95613405389633L1120.0231598119024 309.04326703958066 1271.6756918405094 338.5215330968191z' fill='rgba(255%2c 255%2c 255%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-9.555110513558649-47.547882264686805L-39.02045975887641 80.08056711876395 88.60798962457434 109.54591636408172 118.07333886989211-18.08253301936904z' fill='rgba(255%2c 255%2c 255%2c 1)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1218'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1219'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.container {
+  background: rgba(255, 255, 255, 0.705);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(1.7px);
+  border: 1px solid rgba(255, 255, 255, 0.91);
+  width: 90vmin;
+  padding: 50px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 14px;
+  box-shadow: 0 25px 50px rgba(165, 158, 158, 0.397);
+}
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+button {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 2.5px;
+  border: none;
+  background-color: rgba(190, 190, 190, 0.788);
+  outline: auto;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+select {
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.options label,
+.options select {
+  font-family: "Poppins", sans-serif;
+}
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 40px;
+  height: 28px;
+  border: none;
+  cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px white, 0 0 0 3px black;
+}
+#text-input {
+  margin-top: 10px;
+  border: 1px solid #000;
+  padding: 20px;
+  height: 50vh;
+}
+.active {
+  background-color: white;
+}
