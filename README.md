@@ -1,8 +1,9 @@
 <strong><div align="center">
  📹 Project Showcase
 
-  <video src="https://github.com/LuckxSz/Online-Text-Editor/assets/135531180/cb7931bc-eb41-4582-8c81-ebc511e63e69">
+  <video src="https://github.com/LuckxSz/Online-Text-Editor/assets/135531180/5f5fa0b1-a1e2-45b0-bf1e-25e323539949">
 </div>
+
 
 
 
