@@ -10,7 +10,7 @@
 
 
 > **If the video has an error, reload the page!**<br>
-> Access the online project here  **[AQUI]( https://luckxsz.github.io/Online-Text-Editor/)**
+> Access the online project here  **[AQUI]( https://luckxsz.github.io/Online-Text-Editor-2/)**
 
 
 ## 🤓Technologies Used
